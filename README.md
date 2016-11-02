@@ -1,5 +1,11 @@
 # python fabric 运维例子
 
+## 直接使用
+```python
+fab -H vagrant@192.168.33.100 -- echo 'hello world'
+```
+> 并行运行加 -P
+
 ## 启动
 
 ```python
@@ -16,6 +22,7 @@ fab -f test_function.py test_local()
 2. 上传下载
 3. 远程操作
 4. 远程sudo操作
+5. 当作库集成使用
 
 ## PS
 
