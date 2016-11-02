@@ -16,3 +16,7 @@ fab -f test_function.py test_local()
 2. 上传下载
 3. 远程操作
 4. 远程sudo操作
+
+## PS
+
+例子中的自己的vagrant服务器
